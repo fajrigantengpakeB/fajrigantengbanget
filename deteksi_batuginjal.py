@@ -1,10 +1,10 @@
-import streamlit as st  # type: ignore # Library untuk membuat antarmuka web
-import cv2  # type: ignore # Library untuk pengolahan gambar
-import numpy as np  # type: ignore # Library untuk komputasi numerik
-import time  # Library untuk mengelola waktu
-from keras.models import load_model  # type: ignore # Library untuk memuat model Keras
-from keras.preprocessing import image  # type: ignore # Library untuk pemrosesan gambar
-from PIL import Image, ImageOps  # type: ignore # Library untuk manipulasi gambar
+import streamlit as st 
+import cv2 
+import numpy as np 
+import time
+from keras.models import load_model
+from keras.preprocessing import image 
+from PIL import Image, ImageOps
 
 # Menetapkan ikon dan judul halaman
 icon_path = "labels.txt"
