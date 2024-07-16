@@ -58,7 +58,6 @@ if halaman_terpilih == "Beranda":
 elif halaman_terpilih == "Penjelasan": 
      large_tittle("PENJELASAN BATU GINJAL")
      colored_divider(color="red")
-     st.image("C:\\Users\\ASUS\\Fotoginjal.jpg")
      large_text("Batu ginjal adalah batu yang terbentuk di tubuli ginjal kemudian berada di kaliks, infundibulum, pelvis ginjal dan bahkan bisa mengisi pelvis serta seluruh kaliks ginjal dan merupakan batu saluran kemih yang paling sering terjadi. Penyebab terbentuknya batu saluran kemih diduga berhubungan dengan gangguan aliran urine, gangguan metabolik, infeksi saluran kemih.")
 
 elif halaman_terpilih == "Gejala": 
